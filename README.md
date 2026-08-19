@@ -4,6 +4,8 @@
 
 **Drop-in deployment + CI/CD starter — lint, test, build, publish, and `/health` on every push.**
 
+> **⚡ Impact:** every push → lint → test → build → publish → deploy · multi-stage Docker · `/health` + boot pre-flight checks · Render / Railway / Fly.io configs included
+
 GitHub Actions · Docker · FastAPI · Render / Railway / Fly.io
 
 [![CI](https://github.com/adityashirsatrao007/production-cicd-template/actions/workflows/ci.yml/badge.svg)](https://github.com/adityashirsatrao007/production-cicd-template/actions/workflows/ci.yml)
